@@ -9,7 +9,6 @@
 #include <iomanip>
 #include <ctime>
 #include <nlohmann/json.hpp>
-#include "deadlines.h"
 
 //Культуры и регионы
 const int CULTURES_COUNT = 5;
@@ -23,8 +22,9 @@ const std::string REGIONS[REGIONS_COUNT] = { "regionbels", "regionbelc", "region
 
 const std::string REGIONS_RUS[REGIONS_COUNT] = { u8"Белгород Юг",  u8"Белгород Центр", u8"Белгород-Курск", u8"Тамбов-Юг", u8"Тамбов-Север", u8"Орел", u8"Приморье" };
 
-#include "deadlines.h"
 #include "class_data.h"
+#include "deadlines.h"
+
 
 int main()
 {
@@ -42,6 +42,7 @@ int main()
         read_table_data(sql, data_shbn);
 
         data_shbn[0][0].print();
+
     }
     catch (const soci::soci_error& e)
     {

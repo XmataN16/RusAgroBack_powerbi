@@ -1,5 +1,22 @@
 #pragma once
 
+class ResultArray
+{
+public:
+
+
+	ResultArray()
+	{
+
+	}
+
+
+private:
+
+};
+
+
+
 //Заполнение словаря словарей с культурами, операциями и сроками 
 void set_deadlines(std::map<std::string, std::map<std::string, int>>& deadlines)
 {
@@ -21,32 +38,67 @@ void set_deadlines(std::map<std::string, std::map<std::string, int>>& deadlines)
 	deadlines["Подсолнечник"]["Обработка гербицидами класса «граминицидов»"] = 7;
 }
 
+struct Result 
+{
+	std::unordered_map<std::string, std::vector<std::string>> sugar_beet;
+	std::unordered_map<std::string, std::vector<std::string>> corn;
+};
+
+struct CultureResult 
+{
+	std::vector<std::string> non_feed;
+	std::vector<std::string> not_started;
+};
+
 void calc(data data_shbn[CULTURES_COUNT][REGIONS_COUNT])
 {
-	// Проход по всем культурам
-	for (int culture = 0; culture < CULTURES_COUNT; culture++) 
-	{
-		// Создание массива для текущей культуры
-		std::vector<int> cultureResult;
-		// Все операции по культуре
-		std::unordered_map<std::string, std::string> cultureOperations;
+	Result result;
+	CultureResult sugar_beet_result;
+	CultureResult corn;
 
-		// Заполнения объекта операциями по текущей культуре
+	for (int culture = 0; culture < CULTURES_COUNT; culture++)
+	{
 		for (int region = 0; region < REGIONS_COUNT; region++)
 		{
 			for (int row = 0; row < data_shbn[culture][region].row_count; row++)
-				if (data_shbn[culture][region].culture[row] == CULTURES_RUS[culture])
 			{
-				if (cultureOperations.find(data_shbn[culture][region].material_order[row].value() == cultureOperations.end()))
-				{
-					cultureOperations[item.operation] = item.operation;
-				}
+				// Делить по ПУ не надо, Безоносов отфильтрует у себя...
+				
 			}
 		}
-
-		for (const auto& operation : cultureOperations) {
-		}
-
-		results.push_back(cultureResult);
 	}
+	for (const auto& el : data_shbn) 
+	{
+		if (el.culture == "sugar_beet") 
+		{
+			// Logic for calculating status
+			// Assign status to el.status
+			// End of status calculation logic
+			if (el.status == "Не посеяно") sugar_beet_result.non_feed.push_back(cur_el);
+			if (el.status == "Срок не наступил") sugar_beet_result.not_started.push_back(cur_el);
+		}
+	}
+
+	result.sugar_beet = sugar_beet_result;
+
 }
+
+// result
+/*{sugar_beet:
+  {not_started:
+	[
+	  {ID: 54028
+		Culture: Сахарная свекла
+		NZP_ZP: ZP
+		Business Direction: Белгород Юг
+		Calendar Day: 2024-08-25
+		Higher TM: BL-04-04-83-0050
+		Material Order: Уборка корнеплодов (ГА)
+		Planned Volume: 49
+		Actual Volume: 0
+		PU: РАИ ПУ Закутчанский
+	  }
+	]
+  }
+}
+*/
