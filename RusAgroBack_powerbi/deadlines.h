@@ -1,22 +1,5 @@
 #pragma once
 
-class ResultArray
-{
-public:
-
-
-	ResultArray()
-	{
-
-	}
-
-
-private:
-
-};
-
-
-
 //Заполнение словаря словарей с культурами, операциями и сроками 
 void set_deadlines(std::map<std::string, std::map<std::string, int>>& deadlines)
 {
@@ -38,49 +21,77 @@ void set_deadlines(std::map<std::string, std::map<std::string, int>>& deadlines)
 	deadlines["Подсолнечник"]["Обработка гербицидами класса «граминицидов»"] = 7;
 }
 
+struct Status 
+{
+    int fieldsCount;
+    int fieldsSquare;
+};
+
+struct Operation 
+{
+    std::string businessDirection;
+    std::string PU;
+    std::unordered_map<std::string, Status> statuses;
+};
+
+struct Crop 
+{
+    std::unordered_map<std::string, std::vector<Operation>> operations;
+};
+
 struct Result 
 {
 	std::unordered_map<std::string, std::vector<std::string>> sugar_beet;
-	std::unordered_map<std::string, std::vector<std::string>> corn;
 };
 
-struct CultureResult 
+struct LastResult 
 {
-	std::vector<std::string> non_feed;
-	std::vector<std::string> not_started;
+    Crop sugar_beet;
+    Crop corn;
+    Crop soy;
+    Crop sunflower;
+    Crop corn_silage;
 };
 
-void calc(data data_shbn[CULTURES_COUNT][REGIONS_COUNT])
+/*
+LastResult lastResult = {
+	.sugar_beet = {
+		.operations = {
+			"Уборка корнеплодов(ГА)" = {}
+        }
+    },
+};
+*/
+
+// Функция для получения уникальных значений material_order
+std::vector<std::string> get_unique_material_orders(const std::vector<object_db>& data_in_culture) 
 {
-	Result result;
-	CultureResult sugar_beet_result;
-	CultureResult corn;
-
-	for (int culture = 0; culture < CULTURES_COUNT; culture++)
+	std::set<std::string> unique_set;
+	for (const auto& obj : data_in_culture)
 	{
-		for (int region = 0; region < REGIONS_COUNT; region++)
+		if (obj.material_order.has_value()) 
 		{
-			for (int row = 0; row < data_shbn[culture][region].row_count; row++)
-			{
-				// Делить по ПУ не надо, Безоносов отфильтрует у себя...
-				
-			}
+			unique_set.insert(obj.material_order.value());
 		}
 	}
-	for (const auto& el : data_shbn) 
+	return std::vector<std::string>(unique_set.begin(), unique_set.end());
+}
+
+void calc(data data_shbn[CULTURES_COUNT])
+{
+	Result lastResult;
+	std::vector<object_db> data_sugar_beet = data_shbn[0].objects;
+	std::vector<std::string> uniq_operations_sugar_beet = get_unique_material_orders(data_sugar_beet);
+
+	for (size_t i = 0; i < uniq_operations_sugar_beet.size(); i++)
 	{
-		if (el.culture == "sugar_beet") 
-		{
-			// Logic for calculating status
-			// Assign status to el.status
-			// End of status calculation logic
-			if (el.status == "Не посеяно") sugar_beet_result.non_feed.push_back(cur_el);
-			if (el.status == "Срок не наступил") sugar_beet_result.not_started.push_back(cur_el);
-		}
+		lastResult.sugar_beet[uniq_operations_sugar_beet[i]].push_back({ uniq_operations_sugar_beet[i]});
+		std::cout << lastResult.sugar_beet[uniq_operations_sugar_beet[i]][i] << std::endl;
 	}
-
-	result.sugar_beet = sugar_beet_result;
-
+	
+    //std::cout << data_sugar_beet[0].material_order.value() << std::endl;
+	
+	
 }
 
 // result

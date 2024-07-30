@@ -3,11 +3,13 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <set>
 #include <optional>
 #include <windows.h>
 #include <time.h>
 #include <iomanip>
 #include <ctime>
+#include <list>
 #include <nlohmann/json.hpp>
 
 //Культуры и регионы
@@ -16,11 +18,11 @@ const int REGIONS_COUNT = 7;
 
 const std::string CULTURES[CULTURES_COUNT] = { "sugar_beet", "soy", "sunflower", "corn", "corn_silage" };
 
-const std::string CULTURES_RUS[CULTURES_COUNT] = { u8"Сахарная свекла", u8"Соя", u8"Подсолнечник", u8"Кукуруза на зерно", u8"Кукуруза на силос" };
+const char8_t* CULTURES_RUS[CULTURES_COUNT] = { u8"Сахарная свекла", u8"Соя", u8"Подсолнечник", u8"Кукуруза на зерно", u8"Кукуруза на силос" };
 
 const std::string REGIONS[REGIONS_COUNT] = { "regionbels", "regionbelc", "regionbelk", "regiontams", "regiontamn", "regionorel", "regionprim", };
 
-const std::string REGIONS_RUS[REGIONS_COUNT] = { u8"Белгород Юг",  u8"Белгород Центр", u8"Белгород-Курск", u8"Тамбов-Юг", u8"Тамбов-Север", u8"Орел", u8"Приморье" };
+const char8_t* REGIONS_RUS[REGIONS_COUNT] = { u8"Белгород Юг", u8"Белгород Центр", u8"Белгород - Курск", u8"Тамбов - Юг", u8"Тамбов - Север", u8"Орел", u8"Приморье" };
 
 #include "class_data.h"
 #include "deadlines.h"
@@ -38,10 +40,10 @@ int main()
         std::map<std::string, std::map<std::string, int>> deadlines;
         set_deadlines(deadlines);
         //считывание data
-        data data_shbn[CULTURES_COUNT][REGIONS_COUNT];
+        data data_shbn[CULTURES_COUNT];
         read_table_data(sql, data_shbn);
-
-        data_shbn[0][0].print();
+        calc(data_shbn);
+        //data_shbn[0].print();
 
     }
     catch (const soci::soci_error& e)
