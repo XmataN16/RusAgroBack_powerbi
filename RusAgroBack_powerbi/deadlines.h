@@ -31,17 +31,17 @@ struct Operation
 {
     std::string businessDirection;
     std::string PU;
-    std::unordered_map<std::string, Status> statuses;
+
+	Operation(std::string businessDirection, std::string PU)
+	{
+		this->businessDirection = businessDirection;
+		this->PU = PU;
+	}
 };
 
 struct Crop 
 {
     std::unordered_map<std::string, std::vector<Operation>> operations;
-};
-
-struct Result 
-{
-	std::unordered_map<std::string, std::vector<std::string>> sugar_beet;
 };
 
 struct LastResult 
@@ -79,14 +79,14 @@ std::vector<std::string> get_unique_material_orders(const std::vector<object_db>
 
 void calc(data data_shbn[CULTURES_COUNT])
 {
-	Result lastResult;
+	LastResult lastResult;
 	std::vector<object_db> data_sugar_beet = data_shbn[0].objects;
 	std::vector<std::string> uniq_operations_sugar_beet = get_unique_material_orders(data_sugar_beet);
-
 	for (size_t i = 0; i < uniq_operations_sugar_beet.size(); i++)
 	{
-		lastResult.sugar_beet[uniq_operations_sugar_beet[i]].push_back({ uniq_operations_sugar_beet[i]});
-		std::cout << lastResult.sugar_beet[uniq_operations_sugar_beet[i]][i] << std::endl;
+		Operation a("i", "f");
+		lastResult.sugar_beet.operations[uniq_operations_sugar_beet[i]] = std::vector<Operation>({a});
+		std::cout << lastResult.sugar_beet.operations[uniq_operations_sugar_beet[i]][0].businessDirection;
 	}
 	
     //std::cout << data_sugar_beet[0].material_order.value() << std::endl;
