@@ -15,6 +15,7 @@
 #include <list>
 #include <cstdio>
 #include <utility>
+#include <fstream>
 #include <nlohmann/json.hpp>
 
 //Культуры и регионы
@@ -52,6 +53,7 @@ int main()
         calc_sunflower(data_shbn, lastResult);
         calc_corn(data_shbn, lastResult);
         calc_corn_silage(data_shbn, lastResult);
+        writeReportToJson(lastResult, "report.json");
     }
     catch (const soci::soci_error& e)
     {
