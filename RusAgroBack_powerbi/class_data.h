@@ -12,6 +12,13 @@ struct object_db
     std::optional<float> planned_volume;
     std::optional<float> actual_volume;
     std::optional<std::string> pu;
+    std::optional<std::string> input_operation;
+    std::optional<std::string> alt_operation;
+    std::optional<int> input_deadline;
+    std::optional<int> alt_deadline;
+    std::optional<bool> is_completed;
+    std::optional<std::tm> actual_data;
+    std::optional<float> field_square;
 };
 
 class data
@@ -37,6 +44,13 @@ public:
             temp.planned_volume = r.get_indicator(7) == soci::i_null ? std::optional<double>{} : r.get<double>(7);
             temp.actual_volume = r.get_indicator(8) == soci::i_null ? std::optional<double>{} : r.get<double>(8);
             temp.pu = r.get_indicator(9) == soci::i_null ? std::optional<std::string>{} : r.get<std::string>(9);
+            temp.input_operation = std::nullopt;
+            temp.alt_operation = std::nullopt;
+            temp.input_deadline = std::nullopt;
+            temp.alt_deadline = std::nullopt;
+            temp.is_completed = std::nullopt;
+            temp.actual_data = std::nullopt;
+            temp.field_square = std::nullopt;
             objects.push_back(temp);
         }
 
@@ -74,10 +88,12 @@ public:
     }
 };
 
+/*
 std::string to_string(const char8_t* str) 
 {
     return std::string(reinterpret_cast<const char*>(str));
 }
+*/
 
 
 // Cчитывание таблицы по каждой культуре в массив в PostgreSQL
@@ -85,8 +101,7 @@ void read_table_data(soci::session& sql, data data_shbn[CULTURES_COUNT])
 {
     for (int i = 0; i < CULTURES_COUNT; i++)
     {
-            std::string culture_str = to_string(CULTURES_RUS[i]);
-            soci::rowset<soci::row> rs = (sql.prepare << "SELECT * FROM platform_shbn_data WHERE culture = '" << culture_str << "'");
+            soci::rowset<soci::row> rs = (sql.prepare << "SELECT * FROM platform_shbn_data WHERE culture = '" << CULTURES_RUS[i] << "'");
             data_shbn[i] = data(rs);
     }
 }

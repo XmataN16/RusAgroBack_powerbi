@@ -1,15 +1,20 @@
 #include <soci/soci.h>
 #include <soci/postgresql/soci-postgresql.h>
 #include <iostream>
+#include <string>
 #include <vector>
 #include <map>
 #include <set>
+#include <unordered_set>
+#include <locale>
 #include <optional>
 #include <windows.h>
 #include <time.h>
 #include <iomanip>
 #include <ctime>
 #include <list>
+#include <cstdio>
+#include <utility>
 #include <nlohmann/json.hpp>
 
 //Культуры и регионы
@@ -18,14 +23,17 @@ const int REGIONS_COUNT = 7;
 
 const std::string CULTURES[CULTURES_COUNT] = { "sugar_beet", "soy", "sunflower", "corn", "corn_silage" };
 
-const char8_t* CULTURES_RUS[CULTURES_COUNT] = { u8"Сахарная свекла", u8"Соя", u8"Подсолнечник", u8"Кукуруза на зерно", u8"Кукуруза на силос" };
+const std::string CULTURES_RUS[CULTURES_COUNT] = { u8"Сахарная свекла", u8"Соя", u8"Подсолнечник", u8"Кукуруза на зерно", u8"Кукуруза на силос" };
 
 const std::string REGIONS[REGIONS_COUNT] = { "regionbels", "regionbelc", "regionbelk", "regiontams", "regiontamn", "regionorel", "regionprim", };
 
-const char8_t* REGIONS_RUS[REGIONS_COUNT] = { u8"Белгород Юг", u8"Белгород Центр", u8"Белгород - Курск", u8"Тамбов - Юг", u8"Тамбов - Север", u8"Орел", u8"Приморье" };
+const std::string REGIONS_RUS[REGIONS_COUNT] = { u8"Белгород Юг", u8"Белгород Центр", u8"Белгород - Курск", u8"Тамбов - Юг", u8"Тамбов - Север", u8"Орел", u8"Приморье" };
 
+#include "dates_func.h"
 #include "class_data.h"
+#include "data_struct.h"
 #include "deadlines.h"
+
 
 
 int main()
@@ -35,16 +43,15 @@ int main()
     {
         //подключение к БД PostgreSQL
         soci::session sql(soci::postgresql, "dbname=agro_system user=xmatan16 password=matematic16 hostaddr=127.0.0.1 port=5432");
-
-        //создаем и считываем словарь сроков
-        std::map<std::string, std::map<std::string, int>> deadlines;
-        set_deadlines(deadlines);
         //считывание data
         data data_shbn[CULTURES_COUNT];
+        LastResult lastResult;
         read_table_data(sql, data_shbn);
-        calc(data_shbn);
-        //data_shbn[0].print();
-
+        calc_sugar_beet(data_shbn, lastResult);
+        calc_soy(data_shbn, lastResult);
+        calc_sunflower(data_shbn, lastResult);
+        calc_corn(data_shbn, lastResult);
+        calc_corn_silage(data_shbn, lastResult);
     }
     catch (const soci::soci_error& e)
     {

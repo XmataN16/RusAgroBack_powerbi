@@ -105,8 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\XmataN16\source\repos\RusAgroBack_powerbi\RusAgroBack_powerbi\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalOptions>/Zc:char8_t %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,7 +133,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="class_data.h" />
+    <ClInclude Include="corn_functions.h" />
+    <ClInclude Include="corn_silage_functions.h" />
+    <ClInclude Include="data_struct.h" />
+    <ClInclude Include="dates_func.h" />
     <ClInclude Include="deadlines.h" />
+    <ClInclude Include="soy_functions.h" />
+    <ClInclude Include="sugar_beet_functions.h" />
+    <ClInclude Include="sunflower_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
