@@ -17,6 +17,7 @@
 #include <utility>
 #include <fstream>
 #include <nlohmann/json.hpp>
+#include <omp.h>
 
 //Культуры и регионы
 const int CULTURES_COUNT = 5;
@@ -42,17 +43,47 @@ int main()
     SetConsoleOutputCP(65001);
     try
     {
+        int num_threads = omp_get_max_threads(); // Узнаем максимальное число потоков
+        omp_set_num_threads(num_threads); // Устанавливаем число потоков
+
         //подключение к БД PostgreSQL
         soci::session sql(soci::postgresql, "dbname=agro_system user=xmatan16 password=matematic16 hostaddr=127.0.0.1 port=5432");
         //считывание data
         data data_shbn[CULTURES_COUNT];
         LastResult lastResult;
+        
         read_table_data(sql, data_shbn);
-        calc_sugar_beet(data_shbn, lastResult);
-        calc_soy(data_shbn, lastResult);
-        calc_sunflower(data_shbn, lastResult);
-        calc_corn(data_shbn, lastResult);
-        calc_corn_silage(data_shbn, lastResult);
+
+        clock_t start = clock();
+
+        #pragma omp parallel sections
+        {
+            #pragma omp section
+            {
+                calc_sugar_beet(data_shbn, lastResult);
+            }
+            #pragma omp section
+            {
+                calc_soy(data_shbn, lastResult);
+            }
+            #pragma omp section
+            {
+                calc_sunflower(data_shbn, lastResult);
+            }
+            #pragma omp section
+            {
+                calc_corn(data_shbn, lastResult);
+            }
+            #pragma omp section
+            {
+                calc_corn_silage(data_shbn, lastResult);
+            }
+        }
+
+        clock_t end = clock();
+        double seconds = (double)(end - start) / CLOCKS_PER_SEC;
+        printf("The time: %f seconds\n", seconds);
+
         writeReportToJson(lastResult, "report.json");
     }
     catch (const soci::soci_error& e)

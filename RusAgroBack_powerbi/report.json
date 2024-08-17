@@ -631,7 +631,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 42,
-                        "fieldsSquare": 2924
+                        "fieldsSquare": 6186
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -660,8 +660,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 59,
-                        "fieldsSquare": 3305
+                        "fieldsCount": 64,
+                        "fieldsSquare": 6290
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -690,8 +690,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 56,
-                        "fieldsSquare": 6451
+                        "fieldsCount": 53,
+                        "fieldsSquare": 6651
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -720,8 +720,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 74,
-                        "fieldsSquare": 1691
+                        "fieldsCount": 44,
+                        "fieldsSquare": 5703
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -750,8 +750,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 76,
-                        "fieldsSquare": 4276
+                        "fieldsCount": 51,
+                        "fieldsSquare": 5613
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -781,37 +781,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 71,
-                        "fieldsSquare": 4790
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорус�новский",
-                "businessDirection": "Тамбов-Юг",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsSquare": 6063
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -840,11 +810,11 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 67,
-                        "fieldsSquare": 900
+                        "fieldsCount": 64,
+                        "fieldsSquare": 7229
                     },
                     "not_sown": {
-                        "fieldsCount": 1,
+                        "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_started": {
@@ -870,7 +840,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 74,
+                        "fieldsCount": 62,
                         "fieldsSquare": 8305
                     },
                     "not_sown": {
@@ -900,8 +870,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 41,
-                        "fieldsSquare": 2595
+                        "fieldsCount": 39,
+                        "fieldsSquare": 4879
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -931,7 +901,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 40,
-                        "fieldsSquare": 0
+                        "fieldsSquare": 1397
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -961,7 +931,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 20,
-                        "fieldsSquare": 0
+                        "fieldsSquare": 1857
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1020,38 +990,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 43,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "ПрА ПУ Возд�иженка",
-                "businessDirection": "Приморье",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 29,
+                        "fieldsSquare": 1510
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1080,8 +1020,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 66,
-                        "fieldsSquare": 0
+                        "fieldsCount": 20,
+                        "fieldsSquare": 820
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1110,8 +1050,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 54,
-                        "fieldsSquare": 0
+                        "fieldsCount": 17,
+                        "fieldsSquare": 1217
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1140,7 +1080,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 39,
+                        "fieldsCount": 5,
                         "fieldsSquare": 0
                     },
                     "not_sown": {
@@ -1170,8 +1110,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 43,
-                        "fieldsSquare": 0
+                        "fieldsCount": 10,
+                        "fieldsSquare": 445
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1200,8 +1140,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 34,
-                        "fieldsSquare": 0
+                        "fieldsCount": 29,
+                        "fieldsSquare": 2271
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1230,8 +1170,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 34,
-                        "fieldsSquare": 0
+                        "fieldsCount": 31,
+                        "fieldsSquare": 2191
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1290,8 +1230,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 49,
-                        "fieldsSquare": 3988
+                        "fieldsCount": 45,
+                        "fieldsSquare": 5032
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1321,7 +1261,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 104,
-                        "fieldsSquare": 6645
+                        "fieldsSquare": 7664
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1350,8 +1290,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 107,
-                        "fieldsSquare": 6269
+                        "fieldsCount": 102,
+                        "fieldsSquare": 6830
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1381,7 +1321,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 73,
-                        "fieldsSquare": 2772
+                        "fieldsSquare": 3826
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1410,8 +1350,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 54,
-                        "fieldsSquare": 3938
+                        "fieldsCount": 52,
+                        "fieldsSquare": 4366
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1471,7 +1411,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 104,
-                        "fieldsSquare": 4703
+                        "fieldsSquare": 6125
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1500,8 +1440,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 100,
-                        "fieldsSquare": 0
+                        "fieldsCount": 11,
+                        "fieldsSquare": 1102
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1530,8 +1470,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 67,
-                        "fieldsSquare": 5843
+                        "fieldsCount": 66,
+                        "fieldsSquare": 7164
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1560,8 +1500,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 95,
-                        "fieldsSquare": 6265
+                        "fieldsCount": 94,
+                        "fieldsSquare": 6757
                     },
                     "not_sown": {
                         "fieldsCount": 1,
@@ -1620,8 +1560,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 91,
-                        "fieldsSquare": 5788
+                        "fieldsCount": 90,
+                        "fieldsSquare": 7111
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -1804,36 +1744,6 @@
                     "in_time": {
                         "fieldsCount": 25,
                         "fieldsSquare": 2618
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорус�новский",
-                "businessDirection": "Тамбов-Юг",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -2042,41 +1952,11 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 36,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "ПрА ПУ Возд�иженка",
-                "businessDirection": "Приморье",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
                         "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_sown": {
-                        "fieldsCount": 1,
+                        "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_started": {
@@ -2102,7 +1982,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 58,
+                        "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_sown": {
@@ -2132,7 +2012,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 42,
+                        "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_sown": {
@@ -2162,8 +2042,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 38,
-                        "fieldsSquare": 0
+                        "fieldsCount": 4,
+                        "fieldsSquare": 527
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -2192,7 +2072,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 43,
+                        "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_sown": {
@@ -2222,7 +2102,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 32,
+                        "fieldsCount": 19,
                         "fieldsSquare": 2267
                     },
                     "not_sown": {
@@ -2252,8 +2132,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 27,
-                        "fieldsSquare": 473
+                        "fieldsCount": 15,
+                        "fieldsSquare": 1812
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -2613,7 +2493,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 1,
-                        "fieldsSquare": 135
+                        "fieldsSquare": 390
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -2838,36 +2718,6 @@
                 }
             },
             {
-                "PU": "АГТ ПУ Новорус�новский",
-                "businessDirection": "Тамбов-Юг",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
                 "PU": "АГТ ПУ Первомайский",
                 "businessDirection": "Тамбов-Север",
                 "statuses": {
@@ -3004,7 +2854,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 7,
+                        "fieldsCount": 6,
                         "fieldsSquare": 201
                     },
                     "not_sown": {
@@ -3034,7 +2884,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 13,
+                        "fieldsCount": 12,
                         "fieldsSquare": 690
                     },
                     "not_sown": {
@@ -3064,38 +2914,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 38,
-                        "fieldsSquare": 44
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "ПрА ПУ Возд�иженка",
-                "businessDirection": "Приморье",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 7,
+                        "fieldsSquare": 287
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -3124,8 +2944,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 64,
-                        "fieldsSquare": 599
+                        "fieldsCount": 14,
+                        "fieldsSquare": 1224
                     },
                     "not_sown": {
                         "fieldsCount": 1,
@@ -3154,12 +2974,12 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 51,
-                        "fieldsSquare": 603
+                        "fieldsCount": 13,
+                        "fieldsSquare": 1027
                     },
                     "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 1,
+                        "fieldsSquare": 2
                     },
                     "not_started": {
                         "fieldsCount": 0,
@@ -3184,12 +3004,12 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 39,
-                        "fieldsSquare": 161
+                        "fieldsCount": 4,
+                        "fieldsSquare": 460
                     },
                     "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 1,
+                        "fieldsSquare": 35
                     },
                     "not_started": {
                         "fieldsCount": 0,
@@ -3214,7 +3034,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 43,
+                        "fieldsCount": 0,
                         "fieldsSquare": 0
                     },
                     "not_sown": {
@@ -3244,12 +3064,12 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 24,
-                        "fieldsSquare": 2400
+                        "fieldsCount": 16,
+                        "fieldsSquare": 2398
                     },
                     "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 2,
+                        "fieldsSquare": 12
                     },
                     "not_started": {
                         "fieldsCount": 0,
@@ -3274,8 +3094,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 35,
-                        "fieldsSquare": 2041
+                        "fieldsCount": 28,
+                        "fieldsSquare": 3457
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -3578,8 +3398,8 @@
                         "fieldsSquare": 0
                     },
                     "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 1,
+                        "fieldsSquare": 28
                     },
                     "not_started": {
                         "fieldsCount": 0,
@@ -3848,38 +3668,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 41,
-                        "fieldsSquare": 5152
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорусановский",
-                "businessDirection": "Тамбов-�г",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 1,
-                        "fieldsSquare": 78
+                        "fieldsCount": 42,
+                        "fieldsSquare": 5230
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -4600,7 +4390,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 50,
+                        "fieldsCount": 48,
                         "fieldsSquare": 5571
                     },
                     "not_sown": {
@@ -4632,36 +4422,6 @@
                     "in_time": {
                         "fieldsCount": 42,
                         "fieldsSquare": 4390
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорусановский",
-                "businessDirection": "Тамбов-�г",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -4781,7 +4541,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 59,
-                        "fieldsSquare": 2599
+                        "fieldsSquare": 3657
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -4841,7 +4601,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 34,
-                        "fieldsSquare": 3324
+                        "fieldsSquare": 3588
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -4931,7 +4691,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 52,
-                        "fieldsSquare": 5388
+                        "fieldsSquare": 5429
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5081,7 +4841,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 57,
-                        "fieldsSquare": 4949
+                        "fieldsSquare": 4959
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5263,7 +5023,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 34,
-                        "fieldsSquare": 3916
+                        "fieldsSquare": 4464
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5322,8 +5082,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 38,
-                        "fieldsSquare": 4167
+                        "fieldsCount": 34,
+                        "fieldsSquare": 4308
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5352,8 +5112,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 36,
-                        "fieldsSquare": 4153
+                        "fieldsCount": 34,
+                        "fieldsSquare": 4841
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5382,8 +5142,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 50,
-                        "fieldsSquare": 5384
+                        "fieldsCount": 47,
+                        "fieldsSquare": 5503
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5413,37 +5173,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 42,
-                        "fieldsSquare": 3948
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорусановский",
-                "businessDirection": "Тамбов-�г",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsSquare": 4317
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5473,7 +5203,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 35,
-                        "fieldsSquare": 4543
+                        "fieldsSquare": 4885
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5503,7 +5233,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 58,
-                        "fieldsSquare": 5094
+                        "fieldsSquare": 6858
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5533,7 +5263,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 52,
-                        "fieldsSquare": 6476
+                        "fieldsSquare": 6781
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5563,7 +5293,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 59,
-                        "fieldsSquare": 1640
+                        "fieldsSquare": 3611
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5593,7 +5323,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 69,
-                        "fieldsSquare": 2473
+                        "fieldsSquare": 6958
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5622,8 +5352,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 33,
-                        "fieldsSquare": 1160
+                        "fieldsCount": 34,
+                        "fieldsSquare": 3318
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5683,7 +5413,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 17,
-                        "fieldsSquare": 2261
+                        "fieldsSquare": 2778
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5713,7 +5443,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 52,
-                        "fieldsSquare": 4930
+                        "fieldsSquare": 5427
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5803,7 +5533,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 27,
-                        "fieldsSquare": 2874
+                        "fieldsSquare": 2978
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5833,7 +5563,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 51,
-                        "fieldsSquare": 4861
+                        "fieldsSquare": 5007
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5863,7 +5593,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 57,
-                        "fieldsSquare": 4949
+                        "fieldsSquare": 4959
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5892,8 +5622,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 25,
-                        "fieldsSquare": 3656
+                        "fieldsCount": 26,
+                        "fieldsSquare": 3740
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5923,7 +5653,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 41,
-                        "fieldsSquare": 4677
+                        "fieldsSquare": 5583
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -5953,7 +5683,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 43,
-                        "fieldsSquare": 4726
+                        "fieldsSquare": 4796
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6044,8 +5774,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 21,
-                        "fieldsSquare": 2024
+                        "fieldsCount": 20,
+                        "fieldsSquare": 2356
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6104,7 +5834,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 15,
+                        "fieldsCount": 14,
                         "fieldsSquare": 1921
                     },
                     "not_sown": {
@@ -6134,8 +5864,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 6,
-                        "fieldsSquare": 661
+                        "fieldsCount": 13,
+                        "fieldsSquare": 1207
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6164,8 +5894,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 15,
-                        "fieldsSquare": 1059
+                        "fieldsCount": 30,
+                        "fieldsSquare": 3111
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6194,38 +5924,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 17,
-                        "fieldsSquare": 1067
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорусановский",
-                "businessDirection": "Тамбов-�г",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
+                        "fieldsCount": 28,
+                        "fieldsSquare": 2927
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6254,8 +5954,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 2,
-                        "fieldsSquare": 0
+                        "fieldsCount": 13,
+                        "fieldsSquare": 1306
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6284,8 +5984,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 11,
-                        "fieldsSquare": 1133
+                        "fieldsCount": 18,
+                        "fieldsSquare": 2044
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6314,8 +6014,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 50,
-                        "fieldsSquare": 4285
+                        "fieldsCount": 40,
+                        "fieldsSquare": 5624
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6344,8 +6044,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 2,
-                        "fieldsSquare": 0
+                        "fieldsCount": 59,
+                        "fieldsSquare": 1809
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6374,8 +6074,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 4,
-                        "fieldsSquare": 0
+                        "fieldsCount": 68,
+                        "fieldsSquare": 13
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6404,8 +6104,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 5,
-                        "fieldsSquare": 0
+                        "fieldsCount": 33,
+                        "fieldsSquare": 1777
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6464,8 +6164,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 10,
-                        "fieldsSquare": 571
+                        "fieldsCount": 9,
+                        "fieldsSquare": 1150
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6494,8 +6194,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 37,
-                        "fieldsSquare": 3679
+                        "fieldsCount": 40,
+                        "fieldsSquare": 4176
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6525,7 +6225,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 60,
-                        "fieldsSquare": 4771
+                        "fieldsSquare": 5345
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6554,7 +6254,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 16,
+                        "fieldsCount": 14,
                         "fieldsSquare": 1291
                     },
                     "not_sown": {
@@ -6585,7 +6285,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 27,
-                        "fieldsSquare": 2564
+                        "fieldsSquare": 2978
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6645,7 +6345,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 57,
-                        "fieldsSquare": 4685
+                        "fieldsSquare": 4948
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6674,8 +6374,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 14,
-                        "fieldsSquare": 1691
+                        "fieldsCount": 25,
+                        "fieldsSquare": 3800
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6705,7 +6405,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 40,
-                        "fieldsSquare": 4475
+                        "fieldsSquare": 5355
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6765,7 +6465,7 @@
                     },
                     "in_time": {
                         "fieldsCount": 35,
-                        "fieldsSquare": 3799
+                        "fieldsSquare": 3974
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -6794,7 +6494,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 36,
+                        "fieldsCount": 32,
                         "fieldsSquare": 3004
                     },
                     "not_sown": {
@@ -6978,36 +6678,6 @@
                     "in_time": {
                         "fieldsCount": 26,
                         "fieldsSquare": 2444
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "АГТ ПУ Новорусановский",
-                "businessDirection": "Тамбов-�г",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -7700,7 +7370,7 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 8,
+                        "fieldsCount": 4,
                         "fieldsSquare": 407
                     },
                     "not_sown": {
@@ -8074,36 +7744,6 @@
                 }
             },
             {
-                "PU": "РАИ ПУ Кривецкий",
-                "businessDirection": "�елгород-Курск",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
                 "PU": "РАИ ПУ Малотроицкий",
                 "businessDirection": "Белгород-Курск",
                 "statuses": {
@@ -8134,36 +7774,6 @@
                 }
             },
             {
-                "PU": "РАИ ПУ Малотроицкий",
-                "businessDirection": "Белгород-Ку�ск",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
                 "PU": "РАИ ПУ Покровский",
                 "businessDirection": "Белгород Центр",
                 "statuses": {
@@ -8180,8 +7790,8 @@
                         "fieldsSquare": 0
                     },
                     "in_time": {
-                        "fieldsCount": 3,
-                        "fieldsSquare": 90
+                        "fieldsCount": 9,
+                        "fieldsSquare": 369
                     },
                     "not_sown": {
                         "fieldsCount": 0,
@@ -8736,68 +8346,8 @@
                 }
             },
             {
-                "PU": "РАИ ПУ Кривецкий",
-                "businessDirection": "�елгород-Курск",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
                 "PU": "РАИ ПУ Малотроицкий",
                 "businessDirection": "Белгород-Курск",
-                "statuses": {
-                    "deviation_less_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "deviation_more_two_days": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "expired_not_completed": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "in_time": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_sown": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    },
-                    "not_started": {
-                        "fieldsCount": 0,
-                        "fieldsSquare": 0
-                    }
-                }
-            },
-            {
-                "PU": "РАИ ПУ Малотроицкий",
-                "businessDirection": "Белгород-Ку�ск",
                 "statuses": {
                     "deviation_less_two_days": {
                         "fieldsCount": 0,

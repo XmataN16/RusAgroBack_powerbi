@@ -449,7 +449,7 @@ void calc_corn_silage(data data_shbn[CULTURES_COUNT], LastResult& lastResult)
 		updateLastResultCornSilage(lastResult, uniqCSElements[i], currentStatus);
 	}
 
-	printLastResult(lastResult);
+	//printLastResult(lastResult);
 }
 
 
